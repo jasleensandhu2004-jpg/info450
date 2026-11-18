@@ -7,6 +7,7 @@ st.set_page_config(page_title="City Sales Performance Dashboard", layout="wide")
 
 st.title("📊 City Sales Performance Dashboard")
 st.write(
+    "Jasleen Sandhu."
     "This dashboard visualizes how product sales perform across different cities using the Advertising dataset."
 )
 
