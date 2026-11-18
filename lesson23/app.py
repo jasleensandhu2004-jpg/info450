@@ -10,10 +10,11 @@ st.write(
     "This dashboard visualizes how product sales perform across different cities using the Advertising dataset."
 )
 
-# Load data (make sure Advertising_F.csv is in your repo root)
+# Load data
 @st.cache_data
-def load_data():   
-return pd.read_csv("lesson23/Advertising_F.csv")
+def load_data():
+    return pd.read_csv("lesson23/Advertising_F.csv")
+
 df = load_data()
 
 # Tabs or sections
