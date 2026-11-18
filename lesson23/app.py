@@ -13,8 +13,8 @@ st.write(
 # Load data (make sure Advertising_F.csv is in your repo root)
 @st.cache_data
 def load_data():
-    return pd.read_csv("Advertising_F.csv")
-
+   
+return pd.read_csv("lesson23/Advertising_F.csv")
 df = load_data()
 
 # Tabs or sections
